@@ -1,0 +1,39 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: 3px solid blue;
+    background-color: aliceblue;
+
+
+}
+.fila1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;border: 3px solid blue;
+    background-color: aliceblue;
+}
+.cuad {
+    display: flex;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    text-align: center;
+    font-size: larger;
+    justify-items: center;
+    justify-content: center;
+    
+
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+select {
+    padding-top: 10px;
+    height: 50px;
+}

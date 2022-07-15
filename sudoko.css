@@ -1,19 +1,21 @@
 .contenedor {
+   
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    border: 3px solid blue;
+    border: 3px solid rgba(9, 4, 1, 0.861);
     background-color: aliceblue;
 
 
 }
 .fila1 {
+    
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;border: 3px solid blue;
-    background-color: aliceblue;
+    justify-content: center;
+   
 }
 .cuad {
     display: flex;
@@ -25,6 +27,8 @@
     font-size: larger;
     justify-items: center;
     justify-content: center;
+   
+       
     
 
 }
@@ -36,4 +40,5 @@
 select {
     padding-top: 10px;
     height: 50px;
+    margin-top: 6px;
 }

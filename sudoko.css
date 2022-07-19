@@ -1,3 +1,8 @@
+.principal {
+    display: flex;
+    justify-content: space-around;
+}
+
 .contenedor {
    
     display: flex;
@@ -41,4 +46,32 @@ select {
     padding-top: 10px;
     height: 50px;
     margin-top: 6px;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: gray;
+    border: 2px solid black ;
+    color: black;
+    border-radius: 4px;
+    height: 50px;
+
+}
+
+.sale {
+    font-size: 40px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black ;
+    border-radius: 6px;
+    width: 300px;
+    text-align: center;
+   
 }
